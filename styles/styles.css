@@ -790,6 +790,9 @@ body small {
   .Contenedor_registro {
     width: 15%;
   }
+  input[type=search] {
+    width: 150px;
+  }
   .Contenedor_clima {
     display: none;
   }
