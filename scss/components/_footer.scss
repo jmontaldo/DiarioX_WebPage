@@ -1,0 +1,91 @@
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    padding:  2% 1%;
+    background-color: $color_negro;
+    h1{
+        font-family: $font;
+        font-size: 1em;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        color: $blanco;
+    }
+    li{
+        a{
+            font-family: $font;
+            font-size: 1em;
+            margin-top: 20px;
+            color: $color_blanco;
+            text-align: center;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+                color: $blanco;
+            }
+        }
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.Logo_footer{
+    font-size: 2em;
+    font-family: $font_logo;
+    font-weight: bold;
+    color: $blanco;
+}
+
+.footer__div-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 400px;
+    height: auto;
+    padding: 20px 10px;
+    border-top: 1px solid $blanco;
+}
+
+.footer_social{
+    li{
+        display: inline-block;
+        margin: 10px 20px 10px 30px;
+        width: 40px;
+    }
+}
+
+address, address ~ p{
+    margin-top: 10px;
+    text-align: center;
+    font-family: $font;
+    color: $blanco;
+}
+
+.Restaurar{
+    clear: both;
+}
+
+.Separador{
+    width: 98%;
+    height: 50px;
+    margin: 15px 5px;
+    padding: 2px;
+    border: solid 1px;
+    border-radius: 10px;
+    background-color: $color_negro;
+}
+
+.Titulo_separador{
+    font-family: $font;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 8px 30px 5px;
+    padding: 2px 4px;
+    border-left: 1px solid $blanco;
+    color: $blanco;
+}

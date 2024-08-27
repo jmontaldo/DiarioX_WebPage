@@ -1,0 +1,185 @@
+header{
+    height: 120px;
+    background-color: $fondo_header;
+}
+
+.header_registro{
+    height: 47px;
+}
+
+.Contenedor_registro{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 7%;
+    height: 45px;
+    &:hover{
+        background-color: rgb(41, 40, 40);
+    }
+    img{
+        width: 30px;
+        height: 30px;
+    }
+    li{
+        display: flex;
+        align-items: center;
+        width: 215px;
+        height: 40px;
+        border-top: 1px solid rgb(150,150,150);
+        &:hover{
+            background-color: rgb(41, 40, 40);
+        }
+        a{
+            font-family: $font;
+            font-size: 1em;
+            margin: 15px 3px;
+            padding: 2px 2px;
+            color: $fondo_header;
+            &:hover{
+                text-decoration: underline;
+                color: $blanco;
+            }
+        }
+    }
+}
+
+.Contenedor_titulo_pagina{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.Titulo_pagina{
+    text-align: center;
+    font-family: $font_logo;
+    font-size: 4em;
+    font-weight: bold;
+    margin: 0px;
+    color: $color_negro;
+}
+
+.Nav_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    background-color: $color_negro;
+    box-shadow: rgb(150,150,150) 1px 1px 5px;
+    position: fixed;
+}
+
+.Contenedor_nav_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 88%;
+    height: 35px;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 92%;
+        height: 25px;
+        margin: 2px 0px;
+        padding: 3px;
+    }
+    li{
+        padding: 2px 5px;
+        border-left: 1px solid white;
+    }
+}
+
+.Contenedor_logo_sidebar{
+    display: flex;
+    position: relative;
+    margin-left: 5px;
+    &:hover{
+        background-color: rgb(41, 40, 40);
+    }
+    li{
+        display: flex;
+        align-items: center;
+        width: 210px;
+        height: 40px;
+        border-top: 1px solid rgb(150,150,150);
+        &:hover{
+            background-color: rgb(41, 40, 40);
+        }
+        a{
+            font-family: $font;
+            font-size: 1em;
+            margin: 15px 3px;
+            padding: 2px 2px;
+            color: $fondo_header;
+            &:hover{
+                text-decoration: underline;
+                color: white;
+            }
+        }
+    }
+}
+
+.Ocultar_menu{
+    display: none;
+}
+
+#Menu_desplegable{
+    margin: 0px;
+}
+
+.Mostrar_menu{
+    display: block;
+    position: absolute;
+    top: 37px;
+    left: -10px;
+    width: 210px;
+    height: 285px;
+    z-index: 1000;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    box-shadow: rgb(150,150,150) 1px 1px 1px;
+}
+
+.Mostrar_menu_user{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    top: 45px;
+    z-index: 1000;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+form[name="form_buscar"]{
+    padding: 5px;
+}
+
+input[type="search"], input[type="text"], input[type="email"], input[type="password"]{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    text-indent: 10px;
+}
+
+#Logo_sidebar{
+    width: 30px;
+    height: 30px;
+}
+
+.Contenedor_nav_header a, .Contenedor_nav_header p{
+    font-family: $font;
+    color: $color_blanco;
+}
+
+.Contenedor_nav_header a:hover{
+    text-decoration-line: underline;
+    color: $color_blanco;
+}

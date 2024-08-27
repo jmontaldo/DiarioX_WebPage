@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Diario X</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Página web del Diario X">
+    <meta name="keywords" content="diario, noticias">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="media/X_favicon.jpg" type="img/jpg" sizes="16x16">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="Nav_header">
+            <div class="Contenedor_logo_sidebar"><img src="media/X_Menu_Search.png" alt="icono de lupa" id="Logo_sidebar">
+                <ul id="Menu_desplegable" class="Ocultar_menu">
+                    <li>
+                        <form name="form_buscar" method="get" action="noticia.html">
+                        <p><input type="search" name="Buscar" placeholder="Buscar..."></p>
+                        </form>
+                    </li>
+                    <li><a href="index.html">Inicio</li></a>
+                    <li><a href="#Deportes">Deportes</li></a>
+                    <li><a href="#Economía">Economía</li></a>
+                    <li><a href="#Política">Política</li></a>
+                    <li><a href="#Contactenos">Contactenos</a></li>
+                    <li><a href="/pages/registro.html">Registrarse</a></li>
+                </ul>
+            </div>
+            <div class="Contenedor_nav_header">
+                <ul>
+                    <li><p id="fecha_cambio">19/7 - Buenos Aires</p></li>
+                    <li><a href="index.html">Noticias</a></li>
+                    <li><a href="#Deportes">Deportes</a></li>
+                    <li><a href="#Economía">Economía</a></li>
+                    <li><a href="#Política">Política</a></li>
+                    <li><a href="#Contactenos">Contactenos</a></li>
+                </ul>
+            </div>
+            <div class="Contenedor_registro" id="foto_perfil"><img src="media/perfil.png" alt="imagen de perfil del usuario">
+                <ul id="menu_perfil" class="Ocultar_menu">
+                    <li><a href="pages/registro.html">Registrarme</a></li>
+                    <li><a href="pages/login.html">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="Contenedor_titulo_pagina">
+            <a href="index.html"><h1 class="Titulo_pagina">DIARIO X</h1></a>
+        </div>
+    </header>
+    <nav class="Nav_dolar">
+        <div class="Contenedor_menu_principal">
+            <ul>
+                <li><p name="dolar"></p></li>
+                <li><p name="dolar"></p></li>
+                <li><p name="dolar"></p></li>
+                <li><p name="dolar"></p></li>
+                <li><p name="dolar"></p></li>
+            </ul>
+        </div>
+        <div class="Contenedor_clima">
+            <ul>
+                <li><p>Capital Federal</p></li>
+                <li><img src="media/X_ElTiempo.webp" alt="imagen del clima"></li>
+                <li><p>10.6°</p></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="Contenedor_main" id="Noticias">
+            <section class="Contenedor_grid">
+                <div class="Grid_item1">
+                    <article>
+                        <a href="pages/noticia.html"><h1 class="Titulo_1">Criptomonedas: Nuevo record</h1></a>
+                        <p><small>Por <strong>Copilot</strong></small></p>
+                        <p>El mercado de criptomonedas ha experimentado un crecimiento sin precedentes en las últimas semanas.</p>
+                        <img src="media/X_bitcoin.jpg" alt="Debate político" class="img-fluid">
+                    </article>
+                </div>
+                <div class="Grid_item2">
+                    <article>
+                        <p><strong>Mercados Al Alza: </strong>Mientras las acciones experimentaron un fuerte repunte, los bonos en dólares continuaron su tendencia a la baja.</p>
+                        <img src="media/X_Inversionistas.jpg" alt="Gráfico de acciones" class="img-fluid">
+                    </article>
+                </div>
+                <div class="Grid_item2">
+                    <article>
+                        <p><strong>Filtración Masiva de Datos: </strong>La empresa de tecnología líder CyberTech Solutions ha confirmado una filtración masiva de datos que afecta a millones de usuarios en todo el mundo.</p>
+                        <img src="media/X_Data_leak.jpg" alt="Filtración de datos" class="img-fluid">
+                    </article>
+                </div>
+                <div class="Grid_item3">
+                    <aside>
+                        <h2 class="Ultimas_noticias">Últimas noticias</h2>
+                        <h3 class="Titulo_Ultimas_noticias">Crisis en el Congreso: <br>Debate sobre reforma electoral se estanca</h3>
+                        <p>En una tensa sesión en el Congreso, los legisladores debatieron la propuesta de reforma electoral presentada por el partido opositor. La iniciativa busca modificar el sistema de votación, los límites de financiamiento de campañas y la distribución de escaños.</p>
+                        <img src="media/X_Congreso.jpg" alt="Imagen de los legisladores" class="img-fluid">
+                    </aside>
+                </div>
+            </section>
+            <div class="Separador">
+                <h1 class="Titulo_separador" id="Deportes">Deportes</h1>
+            </div>
+            <section class="Contenedor_grid">
+                <div class="Grid_item1">
+                    <article>
+                        <h1 class="Titulo_1">Todo listo para el Torneo 2025</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius adipisci totam dolorem. Consequuntur, neque ratione.<br><b>Nostrum.</b>
+                        </p>
+                        <img src="media/X_Deportes_Futbol.jpg" alt="Imagen de una pelota de futbol" class="img-fluid">
+                    </article>
+                </div>
+                <div class="Grid_item2">
+                    <article>
+                        <p><strong>El regreso triunfal de ‘El Rayo’ Rodríguez: </strong>El veterano púgil mexicano hizo historia al recuperar su título de campeón peso pluma.</p>
+                        <img src="media/X_Deportes.jpg" alt="'El Rayo Rodriguez' con el cinturon de campeón" class="img-fluid">
+                    </article>
+                </div>
+                <div class="Grid_item2">
+                    <article>
+                        <p><strong>Se celebra una nueva edición del Tenis Open: </strong>El torneo que ha robado las miradas del mundo entero y reunirá a los mejores jugadores del planeta.</p>
+                        <img src="media/X_Deportes_Tenis.jpg" alt="Imagen de una cancha de tenis" class="img-fluid">
+                    </article>
+                </div>
+                <div class="Grid_item3">
+                    <aside>
+                        <h2 class="Ultimas_noticias">Últimas noticias</h2>
+                        <h3 class="Titulo_Ultimas_noticias">¡Argentina invencible! La Albiceleste derrota a Colombia 1-0 en la final de la Copa América</h3>
+                        <p>En una final electrizante, la selección argentina se impuso a Colombia con un gol agónico de <strong>Lautaro Martínez</strong> en la segunda parte del tiempo extra. El Hard Rock Stadium fue testigo de la hazaña, mientras la Albiceleste se corona <strong>campeona</strong>.</p>
+                        <img src="media/X_Deportes_Copa.jpg" alt="Selección Argentina de futbol sostienen la Copa América" class="img-fluid">
+                    </aside>
+                </div>
+            </section>
+            <div class="Separador">
+                <h1 class="Titulo_separador" id="Economía">Economía</h1>
+            </div>
+            <section class="Economía">
+                <div class="Contenedor_noticia3">
+                    <article>
+                        <h1 class="Titulo_1">Comienza la Revolución Blockchain</h1>
+                        <p>Las instituciones financieras más tradicionales se suben al tren de las criptos.</p>
+                        <img src="media/X_Dolar_imagen.jpg" alt="Banco con logo de Bitcoin" class="img-fluid">
+                    </article>
+                </div>
+                <div class="Contenedor_noticia3">
+                    <article>
+                        <h1 class="Titulo_1">China lanza su nueva moneda digital</h1>
+                        <p>El Banco Popular de China presenta oficialmente el yuan digital.</p>
+                        <img src="media/X_Economia.jpg" alt="Yuan digital" class="img-fluid">
+                    </article>
+                </div>
+                <div class="Contenedor_noticia3">
+                    <article>
+                        <h1 class="Titulo_1">Top 5: Consejos de inversión</h1>
+                        <p>¿Cuáles son las mejores herramientas para invertir actualmente?</p>
+                        <img src="media/X_Inversiones.jpg" alt="Persona con gráficos de inversiones" class="img-fluid">
+                    </article>
+                </div>
+            </section>
+            <div class="Separador">
+                <h1 class="Titulo_separador" id="Política">Política</h1>
+            </div>
+            <section class="Contenedor_grid">
+                <div class="Grid_item4">
+                    <article>
+                        <p><strong>Reforma Electoral: </strong>El Congreso Nacional está debatiendo una propuesta que podría alterar significativamente el sistema de representación en el país.</p>
+                        <img src="media/X_Politica_Reforma.jpg" alt="Políticos debatiendo" class="img-fluid">
+                    </article>
+                </div>
+                <div class="Grid_item6">
+                    <article>
+                        <p><strong>ONU Honra al Diplomático: </strong>En una emotiva ceremonia en la sede de las Naciones Unidas, se rindió homenaje al diplomático Aristides de Sousa Mendes</p>
+                        <img src="media/X_Politica_ONU.jpg" alt="Bandera de la ONU" class="img-fluid">
+                    </article>
+                </div>
+                <div class="Grid_item5">
+                    <article>
+                        <a href="noticia.html"><h1 class="Titulo_1">Debate Presidencial Electrizante</h1></a>
+                        <p><small>Por <strong>Copilot</strong></small></p>
+                        <p>En un escenario cargado de tensión y expectativas, los candidatos presidenciales se enfrentaron anoche en el debate televisado.</p>
+                        <img src="media/X_Debate_Politico.jpg" alt="Debate político" class="img-fluid">
+                    </article>
+                </div>
+                <div class="Grid_item3">
+                    <aside>
+                        <h2 class="Ultimas_noticias">Últimas noticias</h2>
+                        <h3 class="Titulo_Ultimas_noticias">Cumbre Histórica en la Isla de Chipre: Grecia y Turquía Firman Acuerdo de Paz</h3>
+                        <p>Después de 50 años de disputas y tensiones, los líderes de Grecia y Turquía se reunieron en la histórica ciudad de Nicosia para sellar un acuerdo de paz que pondría fin al conflicto en la isla de Chipre. La ceremonia, fue presenciada por líderes de todo el mundo.</p>
+                        <img src="media/X_Politica_Mundial.jpg" alt="Selección Argentina de futbol sostienen la Copa América">
+                    </aside>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer id="Contactenos">
+        <div class="footer__div-container">
+            <h1 class="Logo_footer">DIARIO X</h1>
+                <ul class="footer_social">
+                    <li><a href="https://www.instagram.com" target="_blank"><img class="footer_imagen1" src="media/X_Insta_Logo.png" alt="Logo de Instagram"></a></li>
+                    <li><a href="https://www.facebook.com" target="_blank"><img class="footer_imagen2" src="media/X_FB_Logo.png" alt="Logo de Instagram"></a></li>
+                    <li><a href="https://www.X.com" target="_blank"><img class="footer_imagen2" src="media/X_Social_Logo.webp" alt="Logo de Instagram"></a></li>
+                    <li><a href="https://www.Linkedin.com" target="_blank"><img class="footer_imagen2" src="media/Linkedin_icon.png" alt="Logo de Linkedin"></a></li>
+                </ul>
+        </div>
+        <div class="footer__div-container">
+            <h1>Contactenos</h1>
+                <ul>
+                    <li><a href="#"><p>Contacto</p></a></li>
+                    <li><a href="#"><p>Redacción</p></a></li>
+                    <li><a href="#"><p>Contacto Comercial</p></a></li>
+                </ul>
+        </div>
+        <div class="footer__div-container">
+            <h1>Legales</h1>
+                <ul>
+                    <li><a href="#"><p>Términos y condiciones</p></a></li>
+                    <li><a href="#"><p>Política de privacidad</p></a></li>
+                </ul>
+        </div>
+        <div class="footer__div-container">
+            <address>Buenos Aires, Argentina</address>
+            <p><small>&copy;Derechos Reservados 2024</small>
+            <a href="mailtojuanjosemontaldo@hotmail.com"><small>Juan José Montaldo</small></a></p>
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

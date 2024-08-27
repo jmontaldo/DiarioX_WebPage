@@ -1,0 +1,47 @@
+.subtitulo{
+    font-family: $font;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.tag{
+    font-family: $font;
+    color: $color_negro;
+    text-decoration-line: underline;
+}
+
+.fecha{
+    font-family: $font;
+    font-size: 1em;
+    margin: 5px 0px 20px 10px;
+}
+
+.descripcion_imagen{
+    font-family: $font;
+    font-size: 1em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Contenedor_aside{
+    float: right;
+    width: 22%;
+    height: 538px;
+    border: solid 1px;
+    border-radius: 10px;
+    border-color: #818691;
+    margin-top: 4px;
+    padding: 10px;
+    background-color: $fondo_header;
+    box-sizing: border-box;
+    overflow: hidden;
+    img{
+        width: 250px;
+        height: 270px;
+    }
+}
+
+.imagen_nota{
+    width: 850px;
+    height: 550px;
+}
