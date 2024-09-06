@@ -777,7 +777,7 @@ body small {
     grid-column: 3/5;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 680px) {
   .Nav_header {
     justify-content: space-between;
   }

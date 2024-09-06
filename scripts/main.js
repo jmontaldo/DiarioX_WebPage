@@ -15,7 +15,12 @@ function dolar(){
     request.onload = function(){
         answer = JSON.parse(this.responseText);
         for(let i = 0; i < 5; i++){
-            li_dolar[i].innerHTML = `${answer[i].nombre}: $${answer[i].venta}`
+            if (i != 3){
+                li_dolar[i].innerHTML = `${answer[i].nombre}: $${answer[i].venta}`;
+            }
+            else{
+                li_dolar[i].innerHTML = `CCL: $${answer[i].venta}`;
+            }
         }
     };
     request.send();
